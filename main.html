@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudyBuddy Armenia — learn smarter with lessons, practice and study resources.">
+  <title>StudyBuddy Armenia | Learn Smarter</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="main.html" aria-label="StudyBuddy Armenia home">
+      <span class="brand-mark">S</span>
+      <span>StudyBuddy <span class="brand-accent">Armenia</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="main.html">Home</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#resources">Resources</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">☼ Theme</button>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="welcome-line" id="welcomeLine" hidden><span id="welcomeText"></span> <button class="link-button" id="editProfile" type="button">Edit</button></p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR LEARNING SPACE</p>
+        <h1>Learn something<br><span class="gradient-text">great today.</span></h1>
+        <p class="hero-description">Clear lessons, useful resources, and quizzes that help you understand—not just memorize.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#subjects">Explore subjects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="physics.html">Start Physics</a>
+        </div>
+        <div class="hero-proof">
+          <span class="proof-icon">✦</span>
+          <span>Small steps. Real progress. Your pace.</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Study illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="floating-note note-top"><span>✦</span> Keep learning</div>
+        <div class="study-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <div class="mini-label">TODAY'S FOCUS</div>
+          <div class="mini-title">Understand<br>the universe.</div>
+          <div class="mini-equation">F = m × a</div>
+          <div class="mini-progress"><span></span></div>
+          <div class="mini-progress-label"><span>Learning progress</span><strong>Growing</strong></div>
+        </div>
+        <div class="floating-note note-bottom"><span>✓</span> One question at a time</div>
+        <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div>
+      </div>
+    </section>
+
+    <section class="stats container" aria-label="StudyBuddy features">
+      <div class="stat"><span class="stat-icon">📚</span><div><strong>Clear lessons</strong><span>Learn step by step</span></div></div>
+      <div class="stat"><span class="stat-icon">🧠</span><div><strong>Practice quizzes</strong><span>Check your understanding</span></div></div>
+      <div class="stat"><span class="stat-icon">🌱</span><div><strong>Your own pace</strong><span>Progress saved on this device</span></div></div>
+    </section>
+
+    <section class="section container" id="subjects">
+      <div class="section-heading">
+        <div><p class="eyebrow">CHOOSE YOUR PATH</p><h2>Explore subjects</h2></div>
+        <p class="section-subtitle">Pick a subject and start building your skills.</p>
+      </div>
+      <div class="subject-grid">
+        <a class="subject-card physics-card" href="physics.html">
+          <div class="subject-card-top"><span class="subject-icon">⚛</span><span class="subject-tag">12 UNITS</span></div>
+          <h3>Physics</h3><p>Explore motion, forces, energy, electricity, light, and more.</p>
+          <span class="card-link">Open Physics course <span>↗</span></span>
+        </a>
+        <a class="subject-card math-card" href="mathematics.html">
+          <div class="subject-card-top"><span class="subject-icon">📐</span><span class="subject-tag">12 UNITS</span></div>
+          <h3>Mathematics</h3><p>Grades 9–10: algebra, geometry, trigonometry and more, starting from zero.</p>
+          <span class="card-link">Open Mathematics course <span>↗</span></span>
+        </a>
+        <a class="subject-card science-card" href="chemistry.html">
+          <div class="subject-card-top"><span class="subject-icon">⚗️</span><span class="subject-tag">12 UNITS</span></div>
+          <h3>Chemistry</h3><p>Grades 8–10: atoms, reactions, acids, metals and more, starting from zero.</p>
+          <span class="card-link">Open Chemistry course <span>↗</span></span>
+        </a>
+      </div>
+      <p class="small-note">Physics, Mathematics and Chemistry are ready to explore.</p>
+    </section>
+
+    <section class="resource-band" id="resources">
+      <div class="container resource-band-inner">
+        <div><p class="eyebrow">LEARN BEYOND THIS WEBSITE</p><h2>Good resources make a difference.</h2><p>Use trusted study sites alongside StudyBuddy lessons.</p></div>
+        <div class="resource-links">
+          <a href="https://www.khanacademy.org/science" target="_blank" rel="noopener noreferrer"><span>🎓</span><span><strong>Khan Academy</strong><small>Free lessons and practice</small></span><b>↗</b></a>
+          <a href="https://www.physicsclassroom.com/class" target="_blank" rel="noopener noreferrer"><span>🧲</span><span><strong>The Physics Classroom</strong><small>Physics explanations and practice</small></span><b>↗</b></a>
+          <a href="https://phet.colorado.edu/en/simulations/browse" target="_blank" rel="noopener noreferrer"><span>🧪</span><span><strong>PhET Simulations</strong><small>Interactive science experiments</small></span><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container"><a class="brand footer-brand" href="main.html"><span class="brand-mark">S</span><span>StudyBuddy <span class="brand-accent">Armenia</span></span></a><p>Made for curious minds. Keep asking questions. ✦</p></footer>
+  <dialog class="welcome-dialog" id="welcomeDialog" aria-labelledby="welcomeTitle">
+    <form id="welcomeForm" novalidate>
+      <span class="brand-mark welcome-mark" aria-hidden="true">S</span>
+      <h2 id="welcomeTitle">Welcome to StudyBuddy Armenia</h2>
+      <p class="welcome-sub">Tell us a little about you, and we will make this space yours.</p>
+      <label class="field-label" for="learnerName">What should we call you?</label>
+      <input class="field" id="learnerName" name="name" type="text" maxlength="30" autocomplete="given-name" placeholder="Your name">
+      <fieldset class="goal-set"><legend class="field-label">What is your goal in learning?</legend><div class="goal-chips"><label class="goal-chip"><input type="radio" name="goal" value="Pass an exam"><span>Pass an exam</span></label><label class="goal-chip"><input type="radio" name="goal" value="Get better grades"><span>Get better grades</span></label><label class="goal-chip"><input type="radio" name="goal" value="Learn for fun"><span>Learn for fun</span></label><label class="goal-chip"><input type="radio" name="goal" value="Build a strong foundation"><span>Build a strong foundation</span></label></div></fieldset>
+      <label class="field-label" for="goalOther">Or write your own goal</label>
+      <input class="field" id="goalOther" name="goalOther" type="text" maxlength="80" placeholder="For example: get into university">
+      <p class="form-error" id="welcomeError" role="alert" hidden></p>
+      <div class="welcome-actions"><button class="button button-primary" type="submit">Start learning</button><button class="button button-secondary" id="skipWelcome" type="button">Skip for now</button></div>
+    </form>
+  </dialog>
+</body>
+</html>

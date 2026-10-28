@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudyBuddy Mathematics: a 12-unit grade 9–10 course that starts from zero, with examples, practice, quizzes and free resources.">
+  <title>Mathematics Course | StudyBuddy Armenia</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+  <script src="math.js" defer></script>
+</head>
+<body>
+  <div class="side-glow glow-left" aria-hidden="true"></div><div class="side-glow glow-right" aria-hidden="true"></div>
+  <aside class="side-rail rail-left" aria-label="Unit tracker"><p class="rail-title">Your path</p><ol class="rail-units"><li><a class="rail-link" href="#lesson-1" data-u="1"><span>1</span>Numbers</a></li><li><a class="rail-link" href="#lesson-2" data-u="2"><span>2</span>Algebra</a></li><li><a class="rail-link" href="#lesson-3" data-u="3"><span>3</span>Equations</a></li><li><a class="rail-link" href="#lesson-4" data-u="4"><span>4</span>Powers</a></li><li><a class="rail-link" href="#lesson-5" data-u="5"><span>5</span>Graphs</a></li><li><a class="rail-link" href="#lesson-6" data-u="6"><span>6</span>Systems</a></li><li><a class="rail-link" href="#lesson-7" data-u="7"><span>7</span>Quadratics</a></li><li><a class="rail-link" href="#lesson-8" data-u="8"><span>8</span>Geometry</a></li><li><a class="rail-link" href="#lesson-9" data-u="9"><span>9</span>Area &amp; volume</a></li><li><a class="rail-link" href="#lesson-10" data-u="10"><span>10</span>Trigonometry</a></li><li><a class="rail-link" href="#lesson-11" data-u="11"><span>11</span>Statistics</a></li><li><a class="rail-link" href="#lesson-12" data-u="12"><span>12</span>Sequences</a></li></ol></aside>
+  <aside class="side-rail rail-right" aria-hidden="true">
+    <svg viewBox="0 0 160 160"><g class="atom-spin"><polygon class="atom-ring" points="80,14 142,122 18,122"/><circle class="atom-ring" cx="80" cy="80" r="52"/><circle class="atom-e" cx="80" cy="14" r="4.5"/><circle class="atom-e" cx="142" cy="122" r="4.5"/><circle class="atom-e" cx="18" cy="122" r="4.5"/></g><circle class="atom-core" cx="80" cy="80" r="9"/></svg>
+    <svg viewBox="0 0 160 40" style="margin-top:22px"><defs><clipPath id="waveClip"><rect width="160" height="40"/></clipPath></defs><g clip-path="url(#waveClip)"><path class="wave-path" d="M0 20 Q20 -2 40 20 T80 20 T120 20 T160 20 T200 20 T240 20"/></g></svg>
+    <span class="formula-chip">a² + b² = c²</span><span class="formula-chip">y = mx + c</span><span class="formula-chip">A = πr²</span><span class="formula-chip">sin²θ + cos²θ = 1</span>
+    <p class="rail-caption">Maths is everywhere.</p>
+  </aside>
+  <header class="site-header">
+    <a class="brand" href="main.html"><span class="brand-mark">S</span><span>StudyBuddy <span class="brand-accent">Armenia</span></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="main.html">Home</a><a class="active" href="#units">Mathematics course</a><a href="#resources">Resources</a></nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">☼ Theme</button>
+  </header>
+  <main class="container">
+    <section class="course-hero">
+      <div class="breadcrumbs"><a href="main.html">Home</a> / Mathematics</div>
+      <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR MATHEMATICS CLASSROOM</p>
+      <h1>Learn mathematics.<br><span class="gradient-text">From zero to confident.</span></h1>
+      <p class="hero-description">A structured course for grades 9–10 with 12 units. You do not need any background: each unit starts from the very beginning, then builds step by step through theory, a worked example, practice, an extension challenge and a short quiz.</p>
+      <div class="course-meta"><span class="meta-pill">📐 12 units</span><span class="meta-pill">🎓 Grades 9–10</span><span class="meta-pill">🧠 36 quiz questions</span><span class="meta-pill">📈 Local progress tracking</span></div>
+    </section>
+    <div class="course-layout">
+      <div class="course-main">
+        <section class="panel" id="start">
+          <p class="eyebrow">WELCOME TO CLASS</p><h2>How each lesson works</h2>
+          <ol>
+            <li><strong>Start from zero:</strong> read the plain-language introduction and the key words.</li>
+            <li><strong>Learn:</strong> work through the theory and note the formula.</li>
+            <li><strong>Follow:</strong> study the worked example one step at a time.</li>
+            <li><strong>Practise:</strong> solve the questions on paper before revealing the answers.</li>
+            <li><strong>Check:</strong> finish the quiz and review any explanations you missed.</li>
+          </ol>
+          <div class="callout">Study at your own pace. Pause or revisit sections whenever you need to. Maths is learned by doing, so always try before you reveal.</div>
+        </section>
+        <section class="panel" id="units">
+          <p class="eyebrow">COURSE OUTLINE</p><h2>All 12 units</h2>
+          <p>Choose a unit to jump to its full lesson. For the best learning path, start with Unit 1 and continue in order.</p>
+          <div class="unit-list"><a class="unit-link" href="#lesson-1"><span class="unit-number">01</span><span><strong>Numbers, fractions and percentages</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-2"><span class="unit-number">02</span><span><strong>Algebra basics</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-3"><span class="unit-number">03</span><span><strong>Linear equations and inequalities</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-4"><span class="unit-number">04</span><span><strong>Powers, roots and standard form</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-5"><span class="unit-number">05</span><span><strong>Linear functions and graphs</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-6"><span class="unit-number">06</span><span><strong>Systems of equations</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-7"><span class="unit-number">07</span><span><strong>Quadratics</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-8"><span class="unit-number">08</span><span><strong>Angles, triangles and Pythagoras</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-9"><span class="unit-number">09</span><span><strong>Perimeter, area, volume and circles</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-10"><span class="unit-number">10</span><span><strong>Trigonometry</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-11"><span class="unit-number">11</span><span><strong>Statistics and probability</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-12"><span class="unit-number">12</span><span><strong>Sequences and final review</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a></div>
+        </section>
+        
+    <section class="panel lesson-section full-lesson" id="lesson-1">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 01 · BUILD STRONG FOUNDATIONS</p></div>
+      <h2>Numbers, fractions and percentages</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: numbers you use every day</h3><p>A fraction is a way to cut something into equal parts: a pizza cut into 8 slices where you eat 3 is 3/8. A percentage is a fraction with 100 slices, so 25% means 25/100.</p><ul><li><strong>Numerator:</strong> the top number: how many parts you have.</li><li><strong>Denominator:</strong> the bottom number: how many equal parts make the whole.</li><li><strong>Percent:</strong> “out of 100”.</li></ul><p>To compare or combine numbers, put them in the same form. To find a percentage of a number, change it to a decimal and multiply: 20% of 80 = 0.20 × 80 = 16.</p></div>
+        <h3>Equivalent fractions</h3><p>Multiplying or dividing the top and bottom by the same number keeps the value: 1/2 = 2/4 = 50/100. To simplify, divide both by their biggest common factor.</p><h3>Adding and subtracting fractions</h3><p>The denominators must match first. For 1/3 + 1/4 use 12: 4/12 + 3/12 = 7/12. To multiply fractions, multiply straight across. To divide, flip the second fraction and multiply.</p><h3>Percentage change</h3><p>Percentage change = change ÷ original × 100%. A price rising from 50 to 60 is 10 ÷ 50 = 20% up.</p>
+        <div class="formula">Percentage change = (new − old) ÷ old × 100%</div>
+        <div class="callout"><strong>Common mistake:</strong> Always divide by the original value, not the new one.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>A $80 jacket is reduced by 15%. Find the sale price</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Write 15% as a decimal: 0.15.</li><li>Discount = 0.15 × 80 = 12.</li><li>Sale price = 80 − 12 = $68.</li><li>Shortcut: multiply by 0.85, because 100% − 15% = 85%.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Simplify 18/24.</p><button class="reveal-answer" type="button" data-reveal="answer-m1-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m1-1" hidden>3/4</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Find 35% of 200.</p><button class="reveal-answer" type="button" data-reveal="answer-m1-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m1-2" hidden>70</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Calculate 2/3 + 1/6.</p><button class="reveal-answer" type="button" data-reveal="answer-m1-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m1-3" hidden>4/6 + 1/6 = 5/6</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Repeated percentage change</h3><p>A value that grows by r% each period is multiplied by (1 + r/100) each time. After n periods: final = start × (1 + r/100)ⁿ. This is how savings interest and population growth work.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> $1000 grows by 10% a year. How much is it after 2 years?</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-1" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-1" hidden>1000 × 1.1 × 1.1 = $1210, not $1200.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="1"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-2">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 02 · USE LETTERS FOR UNKNOWNS</p></div>
+      <h2>Algebra basics</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: using letters for numbers</h3><p>In algebra a letter is a box that holds a number we do not know yet, or one that can change. If a pen costs p dollars, three pens cost 3p. Algebra is a short way to write rules that work for any number.</p><ul><li><strong>Variable:</strong> a letter standing for a number.</li><li><strong>Term:</strong> a single piece, like 5x or 7.</li><li><strong>Coefficient:</strong> the number multiplying the letter: in 5x it is 5.</li><li><strong>Expression:</strong> terms combined, with no equals sign.</li></ul><p>You can add or subtract only “like terms”, which have the same letter part. 3x + 2x = 5x, but 3x + 2 cannot be joined, just as 3 apples + 2 pears are not 5 of anything.</p></div>
+        <h3>Simplifying</h3><p>Collect like terms: 4a + 3b − a + 5b = 3a + 8b.</p><h3>Expanding brackets</h3><p>Multiply everything inside by the outside term: 3(x + 4) = 3x + 12, and −2(x − 5) = −2x + 10.</p><h3>Factorising</h3><p>The reverse of expanding: pull out a common factor. 6x + 9 = 3(2x + 3).</p><h3>Substitution</h3><p>Replace letters with numbers. If x = 4, then 3x − 5 = 3 × 4 − 5 = 7.</p>
+        <div class="formula">a(b + c) = ab + ac</div>
+        <div class="callout"><strong>Common mistake:</strong> −2(x − 5) = −2x + 10, not −2x − 10: a negative times a negative is positive.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Expand and simplify 2(x + 3) + 4(x − 1)</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Expand: 2x + 6 + 4x − 4.</li><li>Collect the x terms: 2x + 4x = 6x.</li><li>Collect the numbers: 6 − 4 = 2.</li><li>Answer: 6x + 2.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Simplify 5x + 2 − 3x + 7.</p><button class="reveal-answer" type="button" data-reveal="answer-m2-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m2-1" hidden>2x + 9</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Expand 4(2a − 3).</p><button class="reveal-answer" type="button" data-reveal="answer-m2-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m2-2" hidden>8a − 12</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Factorise 10y + 15.</p><button class="reveal-answer" type="button" data-reveal="answer-m2-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m2-3" hidden>5(2y + 3)</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Expanding two brackets</h3><p>To expand (x + 2)(x + 3), multiply every term in the first bracket by every term in the second: x·x + x·3 + 2·x + 2·3 = x² + 5x + 6. A grid, or the word FOIL (First, Outer, Inner, Last), helps you not miss a term.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Expand (x + 4)(x − 1).</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-2" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-2" hidden>x² − x + 4x − 4 = x² + 3x − 4.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="2"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-3">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 03 · KEEP BOTH SIDES BALANCED</p></div>
+      <h2>Linear equations and inequalities</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: balancing equations</h3><p>An equation is a balanced scale. Whatever you do to one side you must do to the other. Solving means finding the number that makes both sides equal.</p><ul><li><strong>Equation:</strong> two expressions joined by =.</li><li><strong>Solution:</strong> the value that makes it true.</li><li><strong>Inverse operation:</strong> the operation that undoes another: + and −, × and ÷.</li><li><strong>Inequality:</strong> uses &lt;, &gt;, ≤ or ≥ instead of =.</li></ul><p>Undo operations in reverse order. For 3x + 5 = 20: subtract 5 from both sides to get 3x = 15, then divide by 3 to get x = 5. Always check by substituting back.</p></div>
+        <h3>Unknowns on both sides</h3><p>Move the letter terms to one side first. 5x − 2 = 3x + 8: subtract 3x to get 2x − 2 = 8, add 2 to get 2x = 10, so x = 5.</p><h3>Equations with brackets</h3><p>Expand first: 2(x + 3) = 14 becomes 2x + 6 = 14, so x = 4.</p><h3>Inequalities</h3><p>Solve like equations, but if you multiply or divide by a negative number, flip the sign: −2x &lt; 6 gives x &gt; −3. On a number line an open circle means “not included” and a filled one means “included”.</p><h3>Word problems</h3><p>Choose a letter, turn the sentence into an equation, solve, and answer in words.</p>
+        <div class="formula">Do the same to both sides</div>
+        <div class="callout"><strong>Common mistake:</strong> Forgetting to flip the inequality sign when dividing by a negative.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Solve 3x + 5 = 2x + 12</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Subtract 2x from both sides: x + 5 = 12.</li><li>Subtract 5: x = 7.</li><li>Check: 3(7) + 5 = 26 and 2(7) + 12 = 26. ✓</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Solve 4x − 7 = 13.</p><button class="reveal-answer" type="button" data-reveal="answer-m3-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m3-1" hidden>x = 5</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Solve 2(x + 1) = 18.</p><button class="reveal-answer" type="button" data-reveal="answer-m3-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m3-2" hidden>x = 8</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Solve x/3 + 2 = 6.</p><button class="reveal-answer" type="button" data-reveal="answer-m3-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m3-3" hidden>x = 12</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Fractions in equations</h3><p>Multiply every term by the common denominator to clear fractions. For x/2 + x/3 = 5, multiply by 6: 3x + 2x = 30, so x = 6.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Solve (x + 1)/2 = (x − 1)/3 + 1.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-3" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-3" hidden>Multiply by 6: 3(x + 1) = 2(x − 1) + 6, so 3x + 3 = 2x + 4 and x = 1.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="3"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-4">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 04 · SHORTCUTS FOR HUGE AND TINY NUMBERS</p></div>
+      <h2>Powers, roots and standard form</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: repeated multiplication</h3><p>2³ means 2 × 2 × 2 = 8. The small raised number is the power: how many times to multiply the base by itself. A square root undoes squaring: √25 = 5 because 5² = 25.</p><ul><li><strong>Base:</strong> the number being multiplied.</li><li><strong>Exponent:</strong> the power: how many copies are multiplied.</li><li><strong>Square root:</strong> the number that squares to give the original.</li><li><strong>Standard form:</strong> a × 10ⁿ with 1 ≤ a &lt; 10.</li></ul><p>Learn the laws; they save a lot of work. Multiplying the same base: add the powers. Dividing: subtract. A power of a power: multiply.</p></div>
+        <h3>Laws of powers</h3><p>aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ and (aᵐ)ⁿ = aᵐⁿ. For example 2³ × 2⁴ = 2⁷.</p><h3>Zero and negative powers</h3><p>a⁰ = 1 for any a ≠ 0, and a⁻ⁿ = 1 ÷ aⁿ. So 5⁻² = 1/25.</p><h3>Roots and surds</h3><p>√(ab) = √a × √b, so √50 = √25 × √2 = 5√2. A surd is a root that is not an exact fraction, like √2.</p><h3>Standard form</h3><p>Write very large or small numbers as a × 10ⁿ: 45 000 = 4.5 × 10⁴ and 0.0003 = 3 × 10⁻⁴.</p>
+        <div class="formula">aᵐ × aⁿ = aᵐ⁺ⁿ · aᵐ ÷ aⁿ = aᵐ⁻ⁿ · a⁰ = 1</div>
+        <div class="callout"><strong>Common mistake:</strong> (2 + 3)² is 25, not 2² + 3². Powers do not split over addition.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Simplify (3x²)(4x³)</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Multiply the numbers: 3 × 4 = 12.</li><li>Add the powers of x: x² × x³ = x⁵.</li><li>Answer: 12x⁵.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Simplify 5⁶ ÷ 5².</p><button class="reveal-answer" type="button" data-reveal="answer-m4-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m4-1" hidden>5⁴</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Write 7200 in standard form.</p><button class="reveal-answer" type="button" data-reveal="answer-m4-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m4-2" hidden>7.2 × 10³</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Simplify √72.</p><button class="reveal-answer" type="button" data-reveal="answer-m4-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m4-3" hidden>√36 × √2 = 6√2</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Rationalising a denominator</h3><p>Convention avoids a surd on the bottom of a fraction. Multiply top and bottom by that surd: 1/√3 = (1 × √3)/(√3 × √3) = √3/3.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Rationalise 6/√2.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-4" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-4" hidden>6√2 ÷ 2 = 3√2.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="4"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-5">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 05 · DRAW THE RULE</p></div>
+      <h2>Linear functions and graphs</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: straight-line graphs</h3><p>A graph is a picture of a rule. For every x on the horizontal axis, the rule gives a y on the vertical axis. A straight line means y changes by the same amount for each step in x, like a taxi fare that grows steadily with distance.</p><ul><li><strong>Coordinates:</strong> a pair (x, y) that locates a point.</li><li><strong>Gradient:</strong> the steepness: rise ÷ run.</li><li><strong>y-intercept:</strong> where the line crosses the y-axis.</li><li><strong>Function:</strong> a rule that gives one output for each input.</li></ul><p>Every straight line has the form y = mx + c. Here m is the gradient and c is the y-intercept. To draw it, mark c on the y-axis, then go right 1 and up m.</p></div>
+        <h3>Finding the gradient</h3><p>Take two points (x₁, y₁) and (x₂, y₂): gradient = (y₂ − y₁) ÷ (x₂ − x₁). Uphill lines have a positive gradient and downhill lines a negative one.</p><h3>Equation of a line</h3><p>Given the gradient m and one point, substitute into y = mx + c to find c.</p><h3>Parallel and perpendicular</h3><p>Parallel lines have equal gradients. Perpendicular lines have gradients that multiply to −1, like 2 and −1/2.</p><h3>Real-life meaning</h3><p>In a taxi fare y = 0.5x + 2, the gradient 0.5 is the price per km and 2 is the starting charge.</p>
+        <div class="formula">y = mx + c · m = (y₂ − y₁) ÷ (x₂ − x₁)</div>
+        <div class="callout"><strong>Common mistake:</strong> Subtract the coordinates in the same order on the top and the bottom.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Find the equation of the line through (1, 3) and (3, 7)</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Gradient: (7 − 3) ÷ (3 − 1) = 2.</li><li>Use y = 2x + c with the point (1, 3): 3 = 2 + c, so c = 1.</li><li>Answer: y = 2x + 1.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Gradient between (0, 1) and (4, 9)?</p><button class="reveal-answer" type="button" data-reveal="answer-m5-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m5-1" hidden>2</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Gradient and y-intercept of y = 3 − 2x?</p><button class="reveal-answer" type="button" data-reveal="answer-m5-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m5-2" hidden>Gradient −2, intercept 3</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> A line parallel to y = 4x + 1 passes through (0, 5). Equation?</p><button class="reveal-answer" type="button" data-reveal="answer-m5-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m5-3" hidden>y = 4x + 5</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Where two lines meet</h3><p>Two lines cross where both equations are true at once. Set the y-values equal: for y = 2x + 1 and y = x + 4, 2x + 1 = x + 4 gives x = 3, then y = 7. They meet at (3, 7).</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Find where y = 3x − 2 and y = x + 6 meet.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-5" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-5" hidden>3x − 2 = x + 6, so 2x = 8, x = 4 and y = 10. The point is (4, 10).</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="5"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-6">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 06 · TWO CLUES, TWO UNKNOWNS</p></div>
+      <h2>Systems of equations</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: solving two equations together</h3><p>If I tell you x + y = 10, many pairs work: 3 and 7, 4 and 6. With a second clue, x − y = 2, only one pair fits: x = 6 and y = 4. Two equations solved together are called simultaneous equations.</p><ul><li><strong>Simultaneous equations:</strong> equations that must be true at the same time.</li><li><strong>Substitution:</strong> replacing one letter with an expression.</li><li><strong>Elimination:</strong> adding or subtracting equations to cancel a letter.</li><li><strong>Solution:</strong> the pair (x, y) that fits both equations.</li></ul><p>For elimination, make the number in front of one letter the same in both equations, then add or subtract to remove it. Solve for the other letter, then substitute back.</p></div>
+        <h3>Elimination</h3><p>For x + y = 10 and x − y = 2, add them: 2x = 12, so x = 6 and y = 4. If the coefficients differ, multiply an equation first so one pair matches.</p><h3>Substitution</h3><p>If y = 2x is given, put 2x in place of y in the other equation: x + 2x = 12 gives x = 4 and y = 8.</p><h3>Graphs</h3><p>Each equation is a line and the solution is where they cross. Parallel lines never cross, so they have no solution.</p><h3>Word problems</h3><p>Name two unknowns, write two equations from the story, and solve them.</p>
+        <div class="formula">Eliminate one letter, solve, substitute back</div>
+        <div class="callout"><strong>Common mistake:</strong> Find both letters and check the answer in both equations.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Solve 2x + y = 11 and x + y = 7</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Subtract the second equation from the first: x = 4.</li><li>Substitute: 4 + y = 7, so y = 3.</li><li>Check: 2(4) + 3 = 11. ✓</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Solve x + y = 9 and x − y = 1.</p><button class="reveal-answer" type="button" data-reveal="answer-m6-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m6-1" hidden>x = 5, y = 4</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Solve y = x + 2 and 2x + y = 11.</p><button class="reveal-answer" type="button" data-reveal="answer-m6-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m6-2" hidden>3x + 2 = 11, so x = 3 and y = 5</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> 2 adult and 1 child ticket cost 20; 1 adult and 1 child ticket cost 14. Adult price?</p><button class="reveal-answer" type="button" data-reveal="answer-m6-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m6-3" hidden>Subtract: adult = 6 (child = 8)</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Multiplying before eliminating</h3><p>For 2x + 3y = 12 and 3x + 2y = 13, multiply the first by 3 and the second by 2: 6x + 9y = 36 and 6x + 4y = 26. Subtract: 5y = 10, so y = 2 and x = 3.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Solve 3x + 2y = 16 and x + 4y = 12.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-6" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-6" hidden>Multiply the second by 3: 3x + 12y = 36. Subtract the first: 10y = 20, so y = 2 and x = 4.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="6"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-7">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 07 · EQUATIONS WITH A SQUARE</p></div>
+      <h2>Quadratics</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: curves and squares</h3><p>A quadratic has an x² term. Its graph is a curve called a parabola, like the path of a thrown ball. Because of the square, a quadratic equation can have up to two solutions.</p><ul><li><strong>Quadratic:</strong> an expression of the form ax² + bx + c.</li><li><strong>Root:</strong> an x-value that makes it equal zero.</li><li><strong>Factorising:</strong> writing it as a product of brackets.</li><li><strong>Discriminant:</strong> b² − 4ac: it tells you how many solutions there are.</li></ul><p>If two numbers multiply to zero, one of them must be zero. So factorise to get (x + p)(x + q) = 0, then x = −p or x = −q.</p></div>
+        <h3>Factorising x² + bx + c</h3><p>Find two numbers that multiply to c and add to b. For x² + 5x + 6 the numbers are 2 and 3, so it factorises to (x + 2)(x + 3).</p><h3>Solving by factorising</h3><p>Move everything to one side so it equals zero, factorise, then set each bracket to zero.</p><h3>The quadratic formula</h3><p>For ax² + bx + c = 0, x = (−b ± √(b² − 4ac)) ÷ 2a. Use it when factorising is hard.</p><h3>The discriminant</h3><p>If b² − 4ac &gt; 0 there are two solutions, if it equals 0 there is one, and if it is below 0 there are none.</p>
+        <div class="formula">x = (−b ± √(b² − 4ac)) ÷ 2a</div>
+        <div class="callout"><strong>Common mistake:</strong> Make the equation equal zero before you factorise.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Solve x² − 5x + 6 = 0</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Find numbers that multiply to 6 and add to −5: −2 and −3.</li><li>Factorise: (x − 2)(x − 3) = 0.</li><li>So x = 2 or x = 3.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Factorise x² + 7x + 12.</p><button class="reveal-answer" type="button" data-reveal="answer-m7-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m7-1" hidden>(x + 3)(x + 4)</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Solve x² = 9x.</p><button class="reveal-answer" type="button" data-reveal="answer-m7-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m7-2" hidden>x(x − 9) = 0, so x = 0 or 9</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Solve x² − 4 = 0.</p><button class="reveal-answer" type="button" data-reveal="answer-m7-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m7-3" hidden>x = 2 or −2</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Completing the square</h3><p>The graph of y = x² − 6x + 5 can be written y = (x − 3)² − 4, so its lowest point (the vertex) is (3, −4). Writing x² + bx as (x + b/2)² − (b/2)² is called completing the square.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Use the formula to solve x² + 2x − 3 = 0.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-7" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-7" hidden>Discriminant = 4 + 12 = 16, so x = (−2 ± 4) ÷ 2: x = 1 or x = −3.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="7"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-8">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 08 · THE RULES OF SHAPE</p></div>
+      <h2>Angles, triangles and Pythagoras</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: shapes and their rules</h3><p>Geometry is the maths of shape and space. Its power is in rules: once you know one angle, rules let you find others without measuring.</p><ul><li><strong>Angle:</strong> a turn measured in degrees (°).</li><li><strong>Parallel lines:</strong> lines that never meet, always the same distance apart.</li><li><strong>Hypotenuse:</strong> the longest side of a right-angled triangle, opposite the right angle.</li><li><strong>Congruent:</strong> exactly the same shape and size.</li></ul><p>Start every problem by marking what you know on the diagram. Then look for the rule that connects what you know to what you want.</p></div>
+        <h3>Angle rules</h3><p>Angles on a straight line add to 180°, around a point to 360°, and in a triangle to 180°. Vertically opposite angles are equal.</p><h3>Parallel lines</h3><p>A line crossing parallel lines makes equal corresponding angles and equal alternate angles (a Z shape). Co-interior angles (a C shape) add to 180°.</p><h3>Polygons</h3><p>The angles of a quadrilateral add to 360°. For an n-sided polygon, the interior angles add to (n − 2) × 180°.</p><h3>Pythagoras’ theorem</h3><p>In a right-angled triangle, a² + b² = c², where c is the hypotenuse. If a triangle’s sides fit this rule, it has a right angle.</p>
+        <div class="formula">a² + b² = c² · interior angles = (n − 2) × 180°</div>
+        <div class="callout"><strong>Common mistake:</strong> Only use Pythagoras in right-angled triangles, and find c² before taking the square root.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>A 5 m ladder reaches 4 m up a wall. How far is its foot from the wall?</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>The ladder is the hypotenuse: c = 5. One side is 4.</li><li>a² + 4² = 5², so a² = 25 − 16 = 9.</li><li>a = 3 m.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Two angles of a triangle are 50° and 65°. Find the third.</p><button class="reveal-answer" type="button" data-reveal="answer-m8-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m8-1" hidden>65°</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Sum of the interior angles of a hexagon?</p><button class="reveal-answer" type="button" data-reveal="answer-m8-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m8-2" hidden>(6 − 2) × 180° = 720°</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> A right triangle has shorter sides 6 and 8. Find the hypotenuse.</p><button class="reveal-answer" type="button" data-reveal="answer-m8-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m8-3" hidden>10</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Similar shapes and scale factors</h3><p>Similar shapes have equal angles and sides in the same ratio, called the scale factor k. Lengths scale by k, areas by k² and volumes by k³. A model one tenth of the real height has one hundredth of its surface area.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Two similar triangles have scale factor 3. The small one has area 4 cm². Find the large area.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-8" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-8" hidden>Area scales by 3² = 9, so 4 × 9 = 36 cm².</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="8"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-9">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 09 · MEASURE SPACE</p></div>
+      <h2>Perimeter, area, volume and circles</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: measuring space</h3><p>Perimeter is the distance around a shape, like a fence. Area is the surface inside it, like grass to cover, measured in square units. Volume is the space inside a 3D object, measured in cubic units.</p><ul><li><strong>Perimeter:</strong> total length around the edge.</li><li><strong>Area:</strong> surface inside, in cm², m² and so on.</li><li><strong>Volume:</strong> space inside, in cm³, m³ and so on.</li><li><strong>Radius:</strong> the distance from the centre of a circle to its edge; the diameter is twice the radius.</li></ul><p>Always write the unit: squared for area, cubed for volume. For circles use π ≈ 3.14, or the π button on your calculator.</p></div>
+        <h3>Area formulas</h3><p>Rectangle: l × w. Triangle: ½ × base × height. Parallelogram: base × height. Trapezium: ½(a + b)h.</p><h3>Circles</h3><p>Circumference C = 2πr = πd and area A = πr². With r = 5: C ≈ 31.4 and A ≈ 78.5.</p><h3>Prisms and cylinders</h3><p>Volume = base area × height. A cylinder with r = 3 and h = 10 has V = π × 3² × 10 = 90π ≈ 283.</p><h3>Cones, pyramids, spheres</h3><p>Cone and pyramid: V = ⅓ × base area × height. Sphere: V = 4/3 πr³ and surface area 4πr².</p>
+        <div class="formula">A = πr² · C = 2πr · V = base area × height</div>
+        <div class="callout"><strong>Common mistake:</strong> Using the diameter where the formula needs the radius.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Find the area of a circle with diameter 10 cm</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Radius = 10 ÷ 2 = 5 cm.</li><li>A = πr² = π × 25.</li><li>A ≈ 78.5 cm².</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Area of a triangle with base 8 and height 5.</p><button class="reveal-answer" type="button" data-reveal="answer-m9-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m9-1" hidden>20</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Circumference of a circle with radius 7 (π ≈ 3.14).</p><button class="reveal-answer" type="button" data-reveal="answer-m9-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m9-2" hidden>43.96, about 44</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Volume of a box 4 × 3 × 2.</p><button class="reveal-answer" type="button" data-reveal="answer-m9-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m9-3" hidden>24</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Composite shapes and surface area</h3><p>Split a complicated shape into simple ones, find each area, then add or subtract. The surface area of a cuboid is its six faces: 2(lw + lh + wh). For a 4 × 3 × 2 box that is 2(12 + 8 + 6) = 52.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> A 10 × 6 rectangle has a circular hole of radius 2 cut out. Find the remaining area.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-9" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-9" hidden>60 − 4π ≈ 60 − 12.57 = 47.43.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="9"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-10">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 10 · ANGLES AND SIDES</p></div>
+      <h2>Trigonometry</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: angles and sides of right-angled triangles</h3><p>If you know an angle of a right-angled triangle, the ratios of its sides never change, however big the triangle is. Trigonometry gives these fixed ratios names so you can find missing sides and angles.</p><ul><li><strong>Hypotenuse:</strong> the longest side, opposite the right angle.</li><li><strong>Opposite:</strong> the side facing your chosen angle.</li><li><strong>Adjacent:</strong> the side touching your angle, other than the hypotenuse.</li><li><strong>Ratio:</strong> a comparison of two lengths by division.</li></ul><p>Label the triangle first: hypotenuse, opposite and adjacent, relative to your angle. Then use SOH CAH TOA to pick the right ratio.</p></div>
+        <h3>SOH CAH TOA</h3><p>sin θ = opposite ÷ hypotenuse, cos θ = adjacent ÷ hypotenuse, tan θ = opposite ÷ adjacent.</p><h3>Finding a side</h3><p>Choose the ratio containing the two sides involved. With an angle of 30° and hypotenuse 10, the opposite side x satisfies sin 30° = x ÷ 10, so x = 5.</p><h3>Finding an angle</h3><p>Use the inverse button. If tan θ = 0.75, then θ = tan⁻¹(0.75) ≈ 36.9°. Make sure your calculator is in degree mode.</p><h3>Real-life uses</h3><p>Heights of trees, slopes of roofs and angles of elevation are all solved with right-angled triangles.</p>
+        <div class="formula">sin θ = O ÷ H · cos θ = A ÷ H · tan θ = O ÷ A</div>
+        <div class="callout"><strong>Common mistake:</strong> A calculator in radian mode gives wrong answers. Set it to degrees.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>A 10 m ladder makes 60° with the ground. How high does it reach?</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>The ladder is the hypotenuse and the height is opposite the angle, so use sin.</li><li>sin 60° = h ÷ 10, so h = 10 × sin 60°.</li><li>h ≈ 8.66 m.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Opposite = 3 and hypotenuse = 6. Find sin θ.</p><button class="reveal-answer" type="button" data-reveal="answer-m10-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m10-1" hidden>0.5</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Find θ if opposite = 4 and adjacent = 4.</p><button class="reveal-answer" type="button" data-reveal="answer-m10-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m10-2" hidden>45°</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Which ratio uses the adjacent and the hypotenuse?</p><button class="reveal-answer" type="button" data-reveal="answer-m10-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m10-3" hidden>cos</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Exact values and a key identity</h3><p>Some angles have exact values: sin 30° = 1/2, cos 60° = 1/2, tan 45° = 1 and sin 45° = √2/2. For every angle, sin²θ + cos²θ = 1, which follows from Pythagoras.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> If cos θ = 0.6 for an acute angle, find sin θ.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-10" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-10" hidden>sin²θ = 1 − 0.36 = 0.64, so sin θ = 0.8.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="10"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-11">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 11 · MAKE SENSE OF DATA AND CHANCE</p></div>
+      <h2>Statistics and probability</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: data and chance</h3><p>Statistics turns lists of numbers into answers. Probability measures how likely something is, from 0 (impossible) to 1 (certain).</p><ul><li><strong>Mean:</strong> add all the values, then divide by how many.</li><li><strong>Median:</strong> the middle value after sorting.</li><li><strong>Mode:</strong> the most common value.</li><li><strong>Range:</strong> largest minus smallest.</li></ul><p>Pick the average that fits the data. If one extreme value drags the mean away from the rest, the median is usually fairer.</p></div>
+        <h3>Averages</h3><p>For 2, 3, 3, 5, 12: mean = 25 ÷ 5 = 5, median = 3, mode = 3 and range = 10. The outlier 12 pulls the mean up.</p><h3>Charts and spread</h3><p>Bar charts compare categories, histograms show how continuous data is spread, and scatter graphs show whether two variables are related.</p><h3>Probability</h3><p>P(event) = favourable outcomes ÷ total outcomes. A fair die gives P(even) = 3/6 = 1/2. Also P(not A) = 1 − P(A).</p><h3>Combined events</h3><p>For independent events, multiply: P(two heads) = 1/2 × 1/2 = 1/4. For events that cannot both happen, add. Tree diagrams help organise this.</p>
+        <div class="formula">P(event) = favourable ÷ total · P(A and B) = P(A) × P(B)</div>
+        <div class="callout"><strong>Common mistake:</strong> Sort the data before finding the median.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>A bag has 3 red and 5 blue balls. A ball is taken and put back, twice. Find P(two reds).</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>P(red) = 3/8 each time.</li><li>The draws are independent, so multiply: 3/8 × 3/8.</li><li>Answer: 9/64.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Median of 7, 2, 9, 4, 5.</p><button class="reveal-answer" type="button" data-reveal="answer-m11-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m11-1" hidden>5 (sorted: 2, 4, 5, 7, 9)</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> P(rolling more than 4 on a die).</p><button class="reveal-answer" type="button" data-reveal="answer-m11-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m11-2" hidden>2/6 = 1/3</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Mean of 4, 8, 6, 10.</p><button class="reveal-answer" type="button" data-reveal="answer-m11-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m11-3" hidden>7</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Without replacement</h3><p>If the first ball is not put back, the second probability changes. With 3 red and 5 blue, P(two reds) = 3/8 × 2/7 = 6/56 = 3/28. For dependent events, update the totals after each pick.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> A bag has 4 red and 6 blue balls. Two are taken without replacement. Find P(both blue).</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-11" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-11" hidden>6/10 × 5/9 = 30/90 = 1/3.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="11"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-12">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 12 · FIND THE PATTERN</p></div>
+      <h2>Sequences and final review</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: patterns and putting it all together</h3><p>A sequence is a list of numbers that follows a rule, like 3, 7, 11, 15. To use it, find the rule and write it as a formula that gives any term.</p><ul><li><strong>Term:</strong> one number in the sequence.</li><li><strong>nth term:</strong> a formula giving the term in position n.</li><li><strong>Arithmetic sequence:</strong> adds the same amount each time.</li><li><strong>Common difference:</strong> the amount added each time.</li></ul><p>For an arithmetic sequence, find the common difference d. The nth term is dn + c, where c = first term − d.</p></div>
+        <h3>Arithmetic sequences</h3><p>3, 7, 11, 15 has d = 4, so the nth term is 4n − 1. The 20th term is 4(20) − 1 = 79.</p><h3>Geometric sequences</h3><p>Multiply by the same ratio each time: 2, 6, 18, 54 has ratio 3 and nth term 2 × 3ⁿ⁻¹.</p><h3>Quadratic sequences</h3><p>If the second differences are constant, the nth term contains n². For 2, 6, 12, 20 the differences are 4, 6, 8, the second difference is 2, and the nth term is n² + n.</p><h3>Your revision toolkit</h3><p>Estimate first, check units, test answers by substituting, and draw a diagram when stuck.</p>
+        <div class="formula">nth term = a + (n − 1)d</div>
+        <div class="callout"><strong>Common mistake:</strong> Do not assume a pattern from two terms. Check at least three.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Find the nth term of 5, 8, 11, 14</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Common difference d = 3.</li><li>The nth term is 3n + c. The first term gives 5 = 3(1) + c, so c = 2.</li><li>nth term = 3n + 2.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Next two terms of 2, 5, 8.</p><button class="reveal-answer" type="button" data-reveal="answer-m12-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m12-1" hidden>11, 14</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> 10th term of 4n − 3.</p><button class="reveal-answer" type="button" data-reveal="answer-m12-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m12-2" hidden>37</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Ratio of 5, 10, 20, 40.</p><button class="reveal-answer" type="button" data-reveal="answer-m12-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m12-3" hidden>2</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>The sum of an arithmetic sequence</h3><p>To add 1 + 2 + … + 100, pair the first and last: 1 + 100 = 101, and there are 50 pairs, so the total is 5050. In general, sum = n/2 × (first + last).</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Find 3 + 7 + 11 + … + 39.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-12" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-12" hidden>There are 10 terms (3 + 4(n − 1) = 39 gives n = 10). Sum = 10/2 × (3 + 39) = 210.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-math-quiz="12"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+        <section class="panel" id="overall-progress">
+          <p class="eyebrow">YOUR PROGRESS</p><h2>Mathematics course progress</h2>
+          <p>Complete a unit quiz with at least 2 correct answers out of 3 to mark it complete. Your progress is stored in this browser on this device only.</p>
+          <div class="progress-track"><div class="progress-fill" id="mathProgressFill"></div></div>
+          <p class="quiz-score" id="mathProgressText">0 of 12 units completed</p>
+          <button class="button button-secondary" type="button" id="resetMathProgress">Reset mathematics progress</button>
+        </section>
+      </div>
+      <aside class="course-sidebar">
+        <section class="panel" id="resources">
+          <p class="eyebrow">EXTRA LEARNING</p><h2>Study resources</h2>
+          <p>Use these free resources to see another explanation or practise more.</p>
+          <a class="resource-card" href="https://www.khanacademy.org/math" target="_blank" rel="noopener noreferrer"><strong>🎓 Khan Academy Math</strong><span>Free lessons and practice for every topic</span></a>
+          <a class="resource-card" href="https://www.desmos.com/calculator" target="_blank" rel="noopener noreferrer"><strong>📈 Desmos graphing calculator</strong><span>Draw lines and curves and see them change</span></a>
+          <a class="resource-card" href="https://www.geogebra.org/" target="_blank" rel="noopener noreferrer"><strong>📐 GeoGebra</strong><span>Interactive geometry and algebra tools</span></a>
+          <a class="resource-card" href="https://www.mathsisfun.com/" target="_blank" rel="noopener noreferrer"><strong>🧮 Maths Is Fun</strong><span>Simple explanations with examples</span></a>
+          <div class="callout">To find help for a unit, search the resource for its topic, for example “quadratic formula” or “Pythagoras theorem”.</div>
+        </section>
+        <section class="panel">
+          <p class="eyebrow">STUDY SKILL</p><h2>Make your own mistakes</h2>
+          <p>When you get a question wrong, do not just read the answer. Find the exact line where your working went off track, then redo the question without looking.</p>
+        </section>
+      </aside>
+    </div>
+    <div class="page-bottom"><a class="back-home" href="main.html">← Back to the homepage</a></div>
+  </main>
+  <footer class="site-footer container"><a class="brand footer-brand" href="main.html"><span class="brand-mark">S</span><span>StudyBuddy <span class="brand-accent">Armenia</span></span></a><p>Made for curious minds. Keep asking questions. ✦</p></footer>
+</body>
+</html>

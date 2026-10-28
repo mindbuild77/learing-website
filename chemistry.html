@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudyBuddy Chemistry: a 12-unit grade 8–10 course that starts from zero, with examples, practice, quizzes and free resources.">
+  <title>Chemistry Course | StudyBuddy Armenia</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+  <script src="chem.js" defer></script>
+</head>
+<body>
+  <div class="side-glow glow-left" aria-hidden="true"></div><div class="side-glow glow-right" aria-hidden="true"></div>
+  <aside class="side-rail rail-left" aria-label="Unit tracker"><p class="rail-title">Your path</p><ol class="rail-units"><li><a class="rail-link" href="#lesson-1" data-u="1"><span>1</span>Matter</a></li><li><a class="rail-link" href="#lesson-2" data-u="2"><span>2</span>Atoms</a></li><li><a class="rail-link" href="#lesson-3" data-u="3"><span>3</span>Periodic table</a></li><li><a class="rail-link" href="#lesson-4" data-u="4"><span>4</span>Bonding</a></li><li><a class="rail-link" href="#lesson-5" data-u="5"><span>5</span>Equations</a></li><li><a class="rail-link" href="#lesson-6" data-u="6"><span>6</span>Reactions</a></li><li><a class="rail-link" href="#lesson-7" data-u="7"><span>7</span>The mole</a></li><li><a class="rail-link" href="#lesson-8" data-u="8"><span>8</span>Acids &amp; bases</a></li><li><a class="rail-link" href="#lesson-9" data-u="9"><span>9</span>Rates &amp; energy</a></li><li><a class="rail-link" href="#lesson-10" data-u="10"><span>10</span>Metals</a></li><li><a class="rail-link" href="#lesson-11" data-u="11"><span>11</span>Separation</a></li><li><a class="rail-link" href="#lesson-12" data-u="12"><span>12</span>Carbon</a></li></ol></aside>
+  <aside class="side-rail rail-right" aria-hidden="true">
+    <svg viewBox="0 0 160 160"><g class="atom-spin"><polygon class="atom-ring" points="80,18 133.7,49 133.7,111 80,142 26.3,111 26.3,49"/><circle class="atom-ring" cx="80" cy="80" r="34"/><circle class="atom-e" cx="80" cy="18" r="4.5"/><circle class="atom-e" cx="133.7" cy="111" r="4.5"/><circle class="atom-e" cx="26.3" cy="49" r="4.5"/></g><circle class="atom-core" cx="80" cy="80" r="9"/></svg>
+    <svg viewBox="0 0 160 40" style="margin-top:22px"><defs><clipPath id="waveClip"><rect width="160" height="40"/></clipPath></defs><g clip-path="url(#waveClip)"><path class="wave-path" d="M0 20 Q20 -2 40 20 T80 20 T120 20 T160 20 T200 20 T240 20"/></g></svg>
+    <span class="formula-chip">H₂O</span><span class="formula-chip">pH 7</span><span class="formula-chip">n = m ÷ M</span><span class="formula-chip">Na⁺ + Cl⁻</span>
+    <p class="rail-caption">Chemistry is everywhere.</p>
+  </aside>
+  <header class="site-header">
+    <a class="brand" href="main.html"><span class="brand-mark">S</span><span>StudyBuddy <span class="brand-accent">Armenia</span></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="main.html">Home</a><a class="active" href="#units">Chemistry course</a><a href="#resources">Resources</a></nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">☼ Theme</button>
+  </header>
+  <main class="container">
+    <section class="course-hero">
+      <div class="breadcrumbs"><a href="main.html">Home</a> / Chemistry</div>
+      <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR CHEMISTRY CLASSROOM</p>
+      <h1>Learn chemistry.<br><span class="gradient-text">From zero to confident.</span></h1>
+      <p class="hero-description">A structured course for grades 8–10 with 12 units. You do not need any background: each unit starts from the very beginning, then builds step by step through theory, a worked example, practice, an extension challenge and a short quiz.</p>
+      <div class="course-meta"><span class="meta-pill">🧪 12 units</span><span class="meta-pill">🎓 Grades 8–10</span><span class="meta-pill">🧠 36 quiz questions</span><span class="meta-pill">📈 Local progress tracking</span></div>
+    </section>
+    <div class="course-layout">
+      <div class="course-main">
+        <section class="panel" id="start">
+          <p class="eyebrow">WELCOME TO CLASS</p><h2>How each lesson works</h2>
+          <ol>
+            <li><strong>Start from zero:</strong> read the plain-language introduction and the key words.</li>
+            <li><strong>Learn:</strong> work through the theory and note the formula.</li>
+            <li><strong>Follow:</strong> study the worked example one step at a time.</li>
+            <li><strong>Practise:</strong> solve the questions on paper before revealing the answers.</li>
+            <li><strong>Check:</strong> finish the quiz and review any explanations you missed.</li>
+          </ol>
+          <div class="callout">Study at your own pace. Pause or revisit sections whenever you need to. Chemistry is learned by doing, so always try before you reveal.</div>
+        </section>
+        <section class="panel" id="units">
+          <p class="eyebrow">COURSE OUTLINE</p><h2>All 12 units</h2>
+          <p>Choose a unit to jump to its full lesson. For the best learning path, start with Unit 1 and continue in order.</p>
+          <div class="unit-list"><a class="unit-link" href="#lesson-1"><span class="unit-number">01</span><span><strong>Matter and the particle model</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-2"><span class="unit-number">02</span><span><strong>Atoms</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-3"><span class="unit-number">03</span><span><strong>The periodic table</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-4"><span class="unit-number">04</span><span><strong>Chemical bonding</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-5"><span class="unit-number">05</span><span><strong>Formulae and equations</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-6"><span class="unit-number">06</span><span><strong>Chemical reactions</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-7"><span class="unit-number">07</span><span><strong>The mole and calculations</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-8"><span class="unit-number">08</span><span><strong>Acids, bases and salts</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-9"><span class="unit-number">09</span><span><strong>Rates of reaction and energy</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-10"><span class="unit-number">10</span><span><strong>Metals and the reactivity series</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-11"><span class="unit-number">11</span><span><strong>Mixtures, solutions and separation</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a><a class="unit-link" href="#lesson-12"><span class="unit-number">12</span><span><strong>Carbon compounds and final review</strong><small>Lesson + practice + quiz</small></span><span class="unit-arrow">↗</span></a></div>
+        </section>
+        
+    <section class="panel lesson-section full-lesson" id="lesson-1">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 01 · WHAT EVERYTHING IS MADE OF</p></div>
+      <h2>Matter and the particle model</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: stuff and particles</h3><p>Chemistry is the study of matter: anything that has mass and takes up space. Air, water, your phone and you are all matter. Everything is made of tiny particles too small to see, and how they are arranged decides whether something is a solid, a liquid or a gas.</p><ul><li><strong>Matter:</strong> anything that has mass and takes up space.</li><li><strong>Particle:</strong> a tiny piece of matter, such as an atom or a molecule.</li><li><strong>Physical change:</strong> a change of state or shape where no new substance forms.</li><li><strong>Property:</strong> a feature of a substance, such as its melting point.</li></ul><p>Imagine particles as people. In a solid they stand in fixed seats and only wobble. In a liquid they move around each other like a crowd. In a gas they run freely across the whole room.</p></div>
+        <h3>States of matter</h3><p>Solids have a fixed shape and volume because their particles are tightly packed and vibrate in place. Liquids have a fixed volume but take the shape of their container. Gases have no fixed shape or volume because their particles are far apart and move quickly.</p><h3>Changes of state</h3><p>Melting turns a solid into a liquid, and boiling or evaporating turns a liquid into a gas. Condensing and freezing go the other way. Sublimation is a solid turning straight into a gas. Heating gives particles more energy so they can overcome the forces holding them together.</p><h3>Pure substances and mixtures</h3><p>A pure substance has only one kind of particle, like distilled water or gold. A mixture contains different substances that are not chemically joined, like sea water or air. Pure substances melt at one sharp temperature; mixtures melt over a range.</p><h3>Elements, compounds and mixtures</h3><p>An element has only one type of atom. A compound has two or more elements chemically joined in a fixed ratio, such as H₂O. A mixture can be separated by physical methods, but a compound needs a chemical reaction.</p>
+        <div class="formula">Solid → liquid → gas: more energy, more freedom</div>
+        <div class="callout"><strong>Common mistake:</strong> Dissolving is not melting. In a solution the solid spreads out among the liquid’s particles; it does not change state.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Why does a puddle disappear on a warm day?</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Water particles at the surface gain energy from the Sun.</li><li>Some move fast enough to escape into the air: this is evaporation.</li><li>The liquid becomes water vapour, a gas, so the puddle shrinks.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Name the change when a gas turns into a liquid.</p><button class="reveal-answer" type="button" data-reveal="answer-m1-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m1-1" hidden>Condensation</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Is air a pure substance or a mixture?</p><button class="reveal-answer" type="button" data-reveal="answer-m1-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m1-2" hidden>A mixture (mostly nitrogen and oxygen)</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> In which state are particles furthest apart?</p><button class="reveal-answer" type="button" data-reveal="answer-m1-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m1-3" hidden>Gas</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Why temperature stays flat while melting</h3><p>When ice melts at 0 °C, the added heat energy is used to break the forces holding particles in place, not to speed them up, so the temperature stays constant until all the ice has melted. The same happens at the boiling point.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Explain why a pure substance has a sharp melting point but a mixture melts over a range.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-1" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-1" hidden>A pure substance has one kind of particle, so all the forces break at the same temperature. In a mixture the particles are held differently, so melting starts and finishes at different temperatures.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="1"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-2">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 02 · THE BUILDING BLOCKS</p></div>
+      <h2>Atoms</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: the tiny building blocks</h3><p>Every substance is made of atoms. They are so small that millions of them could sit side by side across a full stop. An atom has a tiny, dense centre called the nucleus, with electrons moving around it, and mostly empty space in between.</p><ul><li><strong>Proton:</strong> a positive particle in the nucleus.</li><li><strong>Neutron:</strong> a neutral particle in the nucleus.</li><li><strong>Electron:</strong> a tiny negative particle in shells around the nucleus.</li><li><strong>Atomic number:</strong> the number of protons in an atom.</li></ul><p>An atom has no overall charge because its protons (+) and electrons (−) are equal in number. The number of protons decides which element it is: 1 proton is hydrogen, 6 is carbon and 8 is oxygen.</p></div>
+        <h3>Inside the atom</h3><p>Protons have a relative mass of 1 and charge +1. Neutrons have mass 1 and charge 0. Electrons have almost no mass and charge −1. Protons and neutrons make up nearly all of an atom’s mass.</p><h3>Atomic number and mass number</h3><p>Atomic number = protons. Mass number = protons + neutrons. So neutrons = mass number − atomic number. Carbon-12 has 6 protons, 6 neutrons and 6 electrons.</p><h3>Electron shells</h3><p>Electrons fill the shells closest to the nucleus first: 2 in the first, 8 in the second and 8 in the third (for the first 20 elements). Sodium, with 11 electrons, is 2,8,1.</p><h3>Isotopes and ions</h3><p>Isotopes are atoms of the same element with different numbers of neutrons, such as carbon-12 and carbon-14. An ion is an atom that has gained or lost electrons, so it carries a charge.</p>
+        <div class="formula">Neutrons = mass number − atomic number</div>
+        <div class="callout"><strong>Common mistake:</strong> Atomic number counts protons only. Do not add the neutrons.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Find the particles in a sodium atom (mass number 23, atomic number 11)</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Protons = atomic number = 11.</li><li>Electrons = protons = 11, because the atom is neutral.</li><li>Neutrons = 23 − 11 = 12.</li><li>Electron arrangement: 2,8,1.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> How many protons, neutrons and electrons are in carbon-14 (atomic number 6)?</p><button class="reveal-answer" type="button" data-reveal="answer-m2-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m2-1" hidden>6 protons, 8 neutrons, 6 electrons</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> What is the electron arrangement of chlorine (17 electrons)?</p><button class="reveal-answer" type="button" data-reveal="answer-m2-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m2-2" hidden>2,8,7</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> What charge does an atom have if it loses one electron?</p><button class="reveal-answer" type="button" data-reveal="answer-m2-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m2-3" hidden>+1</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Why isotopes behave alike</h3><p>Isotopes of an element have the same number of electrons, and chemical behaviour depends on electrons. So carbon-12 and carbon-14 react in the same way, but carbon-14 is radioactive and is used to date ancient remains.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Chlorine has isotopes Cl-35 and Cl-37. How many neutrons does each have? (Atomic number 17.)</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-2" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-2" hidden>Cl-35: 35 − 17 = 18 neutrons. Cl-37: 37 − 17 = 20 neutrons.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="2"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-3">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 03 · THE MAP OF THE ELEMENTS</p></div>
+      <h2>The periodic table</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: a map of the elements</h3><p>The periodic table is like a map. Elements are arranged by atomic number, and neighbours in the same column behave in similar ways, just as members of a family share traits.</p><ul><li><strong>Group:</strong> a vertical column of the table.</li><li><strong>Period:</strong> a horizontal row of the table.</li><li><strong>Metal:</strong> shiny, conducts heat and electricity, found on the left and middle.</li><li><strong>Non-metal:</strong> usually dull and a poor conductor, found on the right.</li></ul><p>The group number tells you the outer electrons: group 1 elements have 1 outer electron and group 7 elements have 7. The period number tells you how many shells are in use.</p></div>
+        <h3>Metals and non-metals</h3><p>Metals are usually shiny, malleable and good conductors. Non-metals are usually brittle as solids and poor conductors. A staircase line on the table separates them.</p><h3>Group 1: alkali metals</h3><p>Lithium, sodium and potassium are soft, and they react with water to make hydrogen and an alkaline solution. They become more reactive as you go down the group.</p><h3>Group 7: halogens</h3><p>Fluorine, chlorine, bromine and iodine have 7 outer electrons and are reactive non-metals. Reactivity decreases down the group, and a more reactive halogen displaces a less reactive one from its salt.</p><h3>Group 0: noble gases</h3><p>Helium, neon and argon have full outer shells, so they are very unreactive. They are used in balloons, lighting and welding.</p>
+        <div class="formula">Group number = outer electrons · Period number = shells</div>
+        <div class="callout"><strong>Common mistake:</strong> Group 1 gets more reactive going down, but group 7 gets less reactive going down.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Predict how rubidium (below potassium in group 1) reacts with water</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Rubidium is in group 1, below potassium.</li><li>Reactivity increases down group 1.</li><li>So it reacts even more violently than potassium, making hydrogen gas and an alkaline hydroxide.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> How many outer electrons do group 2 elements have?</p><button class="reveal-answer" type="button" data-reveal="answer-m3-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m3-1" hidden>2</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Which is more reactive: chlorine or iodine?</p><button class="reveal-answer" type="button" data-reveal="answer-m3-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m3-2" hidden>Chlorine</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Why are noble gases unreactive?</p><button class="reveal-answer" type="button" data-reveal="answer-m3-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m3-3" hidden>Their outer shells are already full</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Why reactivity changes down a group</h3><p>Each group 1 atom has 1 outer electron. Lower down, that electron is further from the nucleus and shielded by more shells, so it is lost more easily. In group 7, atoms need to gain an electron; further down the gained electron is held less strongly, so reactivity falls.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Explain why potassium is more reactive than lithium.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-3" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-3" hidden>Potassium’s outer electron is further from the nucleus and more shielded, so it is lost more easily.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="3"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-4">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 04 · HOW ATOMS JOIN</p></div>
+      <h2>Chemical bonding</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: why atoms stick together</h3><p>Most atoms are not stable alone. They join to get a full outer shell of electrons, like the noble gases. They can do this by giving electrons away, taking them, or sharing them.</p><ul><li><strong>Ion:</strong> an atom that has gained or lost electrons.</li><li><strong>Ionic bond:</strong> the attraction between oppositely charged ions.</li><li><strong>Covalent bond:</strong> a shared pair of electrons.</li><li><strong>Molecule:</strong> a group of atoms joined by covalent bonds.</li></ul><p>Ask: is it a metal and a non-metal (ionic), two non-metals (covalent), or all metal atoms (metallic)? That one question decides almost everything about the bonding.</p></div>
+        <h3>Ionic bonding</h3><p>A metal atom gives electrons to a non-metal. Sodium gives 1 electron to chlorine, making Na⁺ and Cl⁻ that attract strongly in a giant lattice. Ionic compounds have high melting points and conduct electricity when molten or dissolved, but not as solids.</p><h3>Covalent bonding</h3><p>Non-metal atoms share pairs of electrons. In water, oxygen shares with two hydrogens to make H₂O. Small molecules have low melting points because only weak forces between molecules need to be overcome.</p><h3>Giant covalent structures</h3><p>Diamond and silicon dioxide have millions of atoms joined by strong covalent bonds, so they melt at very high temperatures. Graphite also conducts electricity because it has free electrons.</p><h3>Metallic bonding</h3><p>Metal atoms release their outer electrons, leaving a lattice of positive ions in a “sea” of free electrons. This explains why metals conduct and can be bent into shape.</p>
+        <div class="formula">Metal + non-metal = ionic · Non-metal + non-metal = covalent</div>
+        <div class="callout"><strong>Common mistake:</strong> Ionic compounds do not conduct as solids because their ions cannot move. They conduct when molten or dissolved.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Show how magnesium oxide forms</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Magnesium (2,8,2) loses 2 electrons to become Mg²⁺.</li><li>Oxygen (2,6) gains 2 electrons to become O²⁻.</li><li>The opposite charges attract, forming MgO, an ionic compound.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> What type of bonding is in CO₂?</p><button class="reveal-answer" type="button" data-reveal="answer-m4-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m4-1" hidden>Covalent</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> What ion does calcium (2,8,8,2) form?</p><button class="reveal-answer" type="button" data-reveal="answer-m4-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m4-2" hidden>Ca²⁺</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Why do metals conduct electricity?</p><button class="reveal-answer" type="button" data-reveal="answer-m4-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m4-3" hidden>Their free electrons can move through the lattice</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Why graphite and diamond differ</h3><p>Both are pure carbon. In diamond, each carbon bonds to four others in a rigid 3D lattice, which makes it extremely hard. In graphite, each carbon bonds to three others in layers that slide over each other, and the fourth electron is free to carry charge.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Explain why graphite is used in pencils and as an electrode.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-4" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-4" hidden>Its layers slide easily so it leaves marks, and its free electrons let it conduct electricity.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="4"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-5">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 05 · THE LANGUAGE OF CHEMISTRY</p></div>
+      <h2>Formulae and equations</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: chemical writing</h3><p>Chemists use symbols and numbers as a short, universal writing system. H₂O says: two hydrogen atoms joined to one oxygen atom. A chemical equation is a sentence that says what changes into what.</p><ul><li><strong>Symbol:</strong> one or two letters for an element, like Na or Cl.</li><li><strong>Formula:</strong> shows the atoms in a compound, like CO₂.</li><li><strong>Reactant:</strong> a substance at the start of a reaction.</li><li><strong>Product:</strong> a substance made in a reaction.</li></ul><p>Atoms are never created or destroyed in a reaction. So the same number of each type of atom must appear on both sides of the arrow. Balancing means putting big numbers in front of formulae until that is true.</p></div>
+        <h3>Writing formulae</h3><p>Small subscripts show the atoms in a molecule: CO₂ has 1 carbon and 2 oxygens. For ionic compounds, balance the charges: Mg²⁺ and Cl⁻ need two chlorides, so the formula is MgCl₂.</p><h3>Word equations</h3><p>methane + oxygen → carbon dioxide + water. Reactants go on the left and products on the right.</p><h3>Balancing equations</h3><p>Count the atoms on each side. Change only the big numbers in front, never the small subscripts. H₂ + O₂ → H₂O becomes 2H₂ + O₂ → 2H₂O.</p><h3>State symbols</h3><p>(s) is solid, (l) liquid, (g) gas and (aq) dissolved in water. For example: Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g).</p>
+        <div class="formula">Atoms in = atoms out</div>
+        <div class="callout"><strong>Common mistake:</strong> Never change a subscript to balance an equation. H₂O and H₂O₂ are different substances.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Balance Mg + O₂ → MgO</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Count oxygen: 2 on the left and 1 on the right. Put 2 before MgO: Mg + O₂ → 2MgO.</li><li>Now magnesium: 1 on the left and 2 on the right. Put 2 before Mg.</li><li>Balanced: 2Mg + O₂ → 2MgO.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> How many atoms of each element are in H₂SO₄?</p><button class="reveal-answer" type="button" data-reveal="answer-m5-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m5-1" hidden>2 hydrogen, 1 sulfur, 4 oxygen</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Write the formula for sodium oxide (Na⁺ and O²⁻).</p><button class="reveal-answer" type="button" data-reveal="answer-m5-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m5-2" hidden>Na₂O</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Balance H₂ + Cl₂ → HCl.</p><button class="reveal-answer" type="button" data-reveal="answer-m5-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m5-3" hidden>H₂ + Cl₂ → 2HCl</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Balancing harder equations</h3><p>Start with the atoms that appear in the fewest places, and leave elements that appear alone until last. For C₃H₈ + O₂ → CO₂ + H₂O: carbon gives 3CO₂, hydrogen gives 4H₂O, the oxygen needed is 6 + 4 = 10, so 5O₂.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Balance C₂H₆ + O₂ → CO₂ + H₂O.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-5" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-5" hidden>2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="5"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-6">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 06 · WHEN SUBSTANCES CHANGE</p></div>
+      <h2>Chemical reactions</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: new substances</h3><p>In a chemical reaction, old substances disappear and new ones appear. Burning wood, rusting iron and baking a cake are chemical reactions. The atoms are the same, but they are rearranged.</p><ul><li><strong>Reaction:</strong> a change that makes new substances.</li><li><strong>Combustion:</strong> burning a fuel in oxygen.</li><li><strong>Oxidation:</strong> gaining oxygen.</li><li><strong>Catalyst:</strong> speeds up a reaction without being used up.</li></ul><p>Look for clues: gas bubbles, a colour change, a solid forming, a temperature change, or light. These suggest a new substance has formed, but only a chemical test can be sure.</p></div>
+        <h3>Signs of a reaction</h3><p>Bubbles, a colour change, a solid appearing (a precipitate), a temperature change, light or a new smell. Physical changes like melting do not make new substances.</p><h3>Combustion</h3><p>A fuel burns in oxygen and releases energy. Complete combustion of a hydrocarbon makes carbon dioxide and water. With too little oxygen you get carbon monoxide or soot, and carbon monoxide is poisonous.</p><h3>Decomposition and displacement</h3><p>Heating can break a compound down: CaCO₃ → CaO + CO₂. In displacement, a more reactive element replaces a less reactive one: Zn + CuSO₄ → ZnSO₄ + Cu.</p><h3>Conservation of mass</h3><p>The total mass of reactants equals the total mass of products because no atoms are lost. In an open container a gas can escape, making it look as though mass disappeared.</p>
+        <div class="formula">Mass of reactants = mass of products</div>
+        <div class="callout"><strong>Common mistake:</strong> Mass is not lost when something burns. The gases formed escape into the air.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>24 g of magnesium burns with 16 g of oxygen. What mass of magnesium oxide forms?</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Mass is conserved.</li><li>Reactants: 24 + 16 = 40 g.</li><li>Mass of magnesium oxide = 40 g.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Name the products of complete combustion of methane.</p><button class="reveal-answer" type="button" data-reveal="answer-m6-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m6-1" hidden>Carbon dioxide and water</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Which is a chemical change: ice melting or wood burning?</p><button class="reveal-answer" type="button" data-reveal="answer-m6-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m6-2" hidden>Wood burning</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Why is incomplete combustion dangerous?</p><button class="reveal-answer" type="button" data-reveal="answer-m6-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m6-3" hidden>It makes carbon monoxide, a poisonous gas</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Oxidation and reduction</h3><p>Oxidation is gaining oxygen (or losing electrons) and reduction is losing oxygen (or gaining electrons). They always happen together and are called redox. In 2Mg + O₂ → 2MgO, magnesium is oxidised and oxygen is reduced.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> In CuO + H₂ → Cu + H₂O, which substance is reduced?</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-6" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-6" hidden>Copper oxide is reduced, because it loses oxygen to become copper.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="6"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-7">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 07 · COUNTING ATOMS BY WEIGHING</p></div>
+      <h2>The mole and calculations</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: counting by weighing</h3><p>You cannot count atoms one by one, so chemists count them by weighing, like counting rice by weighing a bag. One mole is a huge fixed number of particles: 6.02 × 10²³, called Avogadro’s number. A dozen is 12; a mole is 6.02 × 10²³.</p><ul><li><strong>Mole:</strong> the amount containing 6.02 × 10²³ particles.</li><li><strong>Relative atomic mass (Aᵣ):</strong> the mass of an atom, found on the periodic table.</li><li><strong>Relative formula mass (Mᵣ):</strong> the sum of the Aᵣ values in a formula.</li><li><strong>Molar mass:</strong> the mass of 1 mole, in g/mol.</li></ul><p>The molar mass in g/mol is the same number as the Mᵣ. So 1 mole of carbon (Aᵣ = 12) weighs 12 g, and 1 mole of water (Mᵣ = 18) weighs 18 g.</p></div>
+        <h3>Relative formula mass</h3><p>Add up the Aᵣ of every atom in the formula. For CO₂ with C = 12 and O = 16: 12 + 16 + 16 = 44.</p><h3>Moles and mass</h3><p>moles = mass ÷ molar mass. For 88 g of CO₂: 88 ÷ 44 = 2 mol.</p><h3>Rearranging</h3><p>mass = moles × molar mass, and molar mass = mass ÷ moles. A formula triangle helps you pick the right form.</p><h3>Percentage composition</h3><p>% of an element = (Aᵣ × number of atoms) ÷ Mᵣ × 100. In water, hydrogen is (2 × 1) ÷ 18 × 100 ≈ 11.1%.</p><h3>Reacting masses</h3><p>The equation shows mole ratios. 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen reacts with 1 mol of oxygen.</p>
+        <div class="formula">moles = mass ÷ molar mass</div>
+        <div class="callout"><strong>Common mistake:</strong> Use the molar mass of the whole formula, not one element, and keep the unit g/mol.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>How many moles are in 36 g of water? (H = 1, O = 16)</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Molar mass of H₂O = 2 × 1 + 16 = 18 g/mol.</li><li>moles = 36 ÷ 18.</li><li>Answer: 2 mol.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Find the Mᵣ of NaOH (Na = 23, O = 16, H = 1).</p><button class="reveal-answer" type="button" data-reveal="answer-m7-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m7-1" hidden>40</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> What is the mass of 3 mol of CO₂ (M = 44 g/mol)?</p><button class="reveal-answer" type="button" data-reveal="answer-m7-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m7-2" hidden>132 g</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> How many moles are in 12 g of carbon (Aᵣ = 12)?</p><button class="reveal-answer" type="button" data-reveal="answer-m7-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m7-3" hidden>1 mol</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Predicting mass from an equation</h3><p>2Mg + O₂ → 2MgO. 2 mol of Mg (48 g) makes 2 mol of MgO (80 g). So 24 g of Mg makes 40 g of MgO. Scale the masses using the ratio from the balanced equation.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> What mass of MgO is made from 12 g of magnesium? (Mg = 24, O = 16.)</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-7" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-7" hidden>12 g Mg = 0.5 mol, which makes 0.5 mol MgO = 0.5 × 40 = 20 g.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="7"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-8">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 08 · FROM LEMONS TO SOAP</p></div>
+      <h2>Acids, bases and salts</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: sour and slippery</h3><p>Acids taste sour, like lemon juice and vinegar. Bases and alkalis feel slippery, like soap. The pH scale measures how acidic or alkaline something is. Never taste chemicals in a lab; these are only everyday examples.</p><ul><li><strong>Acid:</strong> a substance that releases H⁺ ions in water.</li><li><strong>Alkali:</strong> a base that dissolves in water, releasing OH⁻ ions.</li><li><strong>Indicator:</strong> a dye that changes colour in acid or alkali.</li><li><strong>pH:</strong> a scale from 0 to 14 for acidity.</li></ul><p>pH 7 is neutral, like pure water. Below 7 is acidic, and the lower the number the stronger the acid. Above 7 is alkaline.</p></div>
+        <h3>Indicators and pH</h3><p>Litmus is red in acid and blue in alkali. Universal indicator shows a rainbow: red for strong acid, green for neutral and purple for strong alkali.</p><h3>Neutralisation</h3><p>acid + alkali → salt + water. For example HCl + NaOH → NaCl + H₂O. The key change is H⁺ + OH⁻ → H₂O.</p><h3>Acids with metals and carbonates</h3><p>acid + metal → salt + hydrogen. acid + carbonate → salt + water + carbon dioxide. Carbon dioxide turns limewater cloudy.</p><h3>Naming salts</h3><p>Hydrochloric acid makes chlorides, sulfuric acid makes sulfates and nitric acid makes nitrates. Zinc and sulfuric acid make zinc sulfate.</p>
+        <div class="formula">acid + base → salt + water</div>
+        <div class="callout"><strong>Common mistake:</strong> pH 3 is not “slightly” acidic. Each pH step is ten times stronger, so pH 3 is far more acidic than pH 6.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Name the products when hydrochloric acid reacts with calcium carbonate</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Acid + carbonate → salt + water + carbon dioxide.</li><li>The salt from hydrochloric acid is a chloride: calcium chloride.</li><li>Products: calcium chloride, water and carbon dioxide.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> What colour does litmus turn in alkali?</p><button class="reveal-answer" type="button" data-reveal="answer-m8-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m8-1" hidden>Blue</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> What salt forms from sulfuric acid and magnesium oxide?</p><button class="reveal-answer" type="button" data-reveal="answer-m8-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m8-2" hidden>Magnesium sulfate</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> A solution has pH 12. Is it acidic or alkaline?</p><button class="reveal-answer" type="button" data-reveal="answer-m8-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m8-3" hidden>Strongly alkaline</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Strong and weak acids</h3><p>A strong acid, such as hydrochloric acid, ionises fully in water. A weak acid, such as the ethanoic acid in vinegar, ionises only partly. Strength is not concentration: concentration is how much acid is dissolved, and strength is how much of it ionises.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Can a dilute strong acid and a concentrated weak acid exist? Explain.</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-8" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-8" hidden>Yes. Strength is about ionisation and concentration is about how much acid is present, so the two are independent.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="8"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-9">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 09 · HOW FAST, HOW HOT</p></div>
+      <h2>Rates of reaction and energy</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: speed and heat of reactions</h3><p>Some reactions are explosive and some take years. A reaction cannot happen unless particles crash into each other with enough energy. The more often and the harder they collide, the faster the reaction.</p><ul><li><strong>Rate:</strong> how fast reactants are used up or products are made.</li><li><strong>Collision:</strong> two particles hitting each other.</li><li><strong>Catalyst:</strong> speeds up a reaction without being used up.</li><li><strong>Activation energy:</strong> the minimum energy needed to start a reaction.</li></ul><p>To speed up a reaction, increase the number of successful collisions per second. You can raise the temperature, increase the concentration, increase the surface area or add a catalyst.</p></div>
+        <h3>Collision theory</h3><p>Particles must collide with at least the activation energy to react. Not every collision is successful.</p><h3>Factors affecting rate</h3><p>Higher temperature: particles move faster and collide harder and more often. Higher concentration or pressure: more particles in the same space. Smaller pieces: a larger surface area. A catalyst gives an easier route with a lower activation energy.</p><h3>Measuring rate</h3><p>rate = amount of product formed ÷ time. On a graph, a steeper line means a faster reaction, and the curve flattens when a reactant has run out.</p><h3>Energy changes</h3><p>Exothermic reactions release energy, so the temperature rises (combustion, neutralisation). Endothermic reactions absorb energy, so the temperature falls (thermal decomposition). Breaking bonds takes energy and making bonds releases it.</p>
+        <div class="formula">rate = amount of product ÷ time</div>
+        <div class="callout"><strong>Common mistake:</strong> A catalyst is not used up and does not change how much product forms. It only speeds up the reaction.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Why does powdered marble react faster than marble chips with acid?</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Powder has a much larger surface area.</li><li>More particles are exposed to the acid at once.</li><li>So there are more collisions per second and the rate increases.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> How does raising the temperature affect the rate?</p><button class="reveal-answer" type="button" data-reveal="answer-m9-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m9-1" hidden>It increases the rate</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> A reaction gets hot. Is it exothermic or endothermic?</p><button class="reveal-answer" type="button" data-reveal="answer-m9-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m9-2" hidden>Exothermic</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> What does a catalyst do to the activation energy?</p><button class="reveal-answer" type="button" data-reveal="answer-m9-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m9-3" hidden>Lowers it</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Reading a rate graph</h3><p>On a graph of gas volume against time, the gradient at any point is the rate. The reaction is fastest at the start when the reactant concentration is highest, so the curve is steepest there and levels off when one reactant is used up.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> At what point on the curve is the rate zero, and why?</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-9" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-9" hidden>Where the curve is flat, because one reactant has been used up and no more product forms.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="9"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-10">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 10 · WHICH METAL WINS</p></div>
+      <h2>Metals and the reactivity series</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: ranking metals</h3><p>Some metals, like potassium, react violently with water, while gold stays shiny for thousands of years. The reactivity series ranks metals from most to least reactive, and it predicts which reactions will happen.</p><ul><li><strong>Reactivity series:</strong> a list of metals from most to least reactive.</li><li><strong>Displacement:</strong> a more reactive metal pushing a less reactive one out of its compound.</li><li><strong>Ore:</strong> rock containing enough metal to be worth extracting.</li><li><strong>Corrosion:</strong> slow damage to a metal by air and water.</li></ul><p>Learn the order: potassium, sodium, calcium, magnesium, aluminium, (carbon), zinc, iron, copper, silver, gold. Metals higher up lose electrons more easily and react more strongly.</p></div>
+        <h3>Reactions of metals</h3><p>Very reactive metals react with water to give a hydroxide and hydrogen. Less reactive ones react with acids. Copper, silver and gold do not react with dilute acids.</p><h3>Displacement</h3><p>Iron + copper sulfate → iron sulfate + copper. The iron is more reactive, so it takes the place of copper. A less reactive metal cannot displace a more reactive one.</p><h3>Extracting metals</h3><p>Metals below carbon, such as iron, are extracted by heating the ore with carbon: Fe₂O₃ + 3CO → 2Fe + 3CO₂. Metals above carbon, such as aluminium, need electrolysis.</p><h3>Rusting</h3><p>Iron rusts when it is exposed to both oxygen and water. Prevent it with paint, oil, galvanising (a zinc coating) or sacrificial protection.</p>
+        <div class="formula">More reactive metal displaces less reactive metal</div>
+        <div class="callout"><strong>Common mistake:</strong> Carbon cannot extract metals above it in the series. Aluminium needs electrolysis.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Will zinc react with copper sulfate solution?</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Zinc is above copper in the reactivity series.</li><li>So zinc displaces copper.</li><li>Zn + CuSO₄ → ZnSO₄ + Cu: copper metal forms and the blue colour fades.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Which is more reactive: magnesium or iron?</p><button class="reveal-answer" type="button" data-reveal="answer-m10-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m10-1" hidden>Magnesium</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> Name two things iron needs to rust.</p><button class="reveal-answer" type="button" data-reveal="answer-m10-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m10-2" hidden>Oxygen and water</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> How is iron extracted from its ore?</p><button class="reveal-answer" type="button" data-reveal="answer-m10-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m10-3" hidden>By heating with carbon (or carbon monoxide) in a blast furnace</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Electrolysis</h3><p>Electrolysis uses electricity to break down molten or dissolved ionic compounds. Positive ions go to the negative electrode (cathode) and gain electrons. Negative ions go to the positive electrode (anode) and lose electrons. Molten aluminium oxide gives aluminium at the cathode and oxygen at the anode.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> In molten sodium chloride, what forms at each electrode?</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-10" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-10" hidden>Sodium at the cathode (negative) and chlorine at the anode (positive).</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="10"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-11">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 11 · SEPARATE WHAT IS MIXED</p></div>
+      <h2>Mixtures, solutions and separation</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: sorting mixtures</h3><p>A mixture can be separated because its substances are not chemically joined. To choose a method, ask: what is different about the substances? Their size, their boiling point, or how well they dissolve?</p><ul><li><strong>Solute:</strong> the substance that dissolves.</li><li><strong>Solvent:</strong> the liquid it dissolves in.</li><li><strong>Solution:</strong> a solute dissolved in a solvent.</li><li><strong>Insoluble:</strong> does not dissolve.</li></ul><p>Match the method to the difference. An insoluble solid in a liquid: filtration. A dissolved solid: evaporation or crystallisation. Liquids with different boiling points: distillation. Different dyes: chromatography.</p></div>
+        <h3>Filtration and evaporation</h3><p>Filtration removes an insoluble solid, like sand from water. Evaporating the liquid leaves a dissolved solid behind, like salt from sea water.</p><h3>Distillation</h3><p>Simple distillation separates a solvent from a solution: boil it, cool the vapour in a condenser and collect the pure liquid. Fractional distillation separates liquids with different boiling points, such as crude oil.</p><h3>Chromatography</h3><p>Dyes separate on paper because they dissolve in the solvent and stick to the paper by different amounts. Rf = distance moved by the substance ÷ distance moved by the solvent.</p><h3>Solubility and concentration</h3><p>Solubility is the maximum mass that dissolves in 100 g of solvent at a given temperature. Most solids dissolve more when it is hotter. Concentration = mass ÷ volume, in g/dm³.</p>
+        <div class="formula">Rf = distance moved by substance ÷ distance moved by solvent</div>
+        <div class="callout"><strong>Common mistake:</strong> Evaporation leaves the solute behind. Distillation collects the solvent.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Separate a mixture of sand, salt and water</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Filter it: the sand stays on the paper.</li><li>Evaporate the filtrate to leave the salt, or distil it to keep the pure water too.</li><li>Result: sand, salt and water are separated.</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> Which method separates two liquids with different boiling points?</p><button class="reveal-answer" type="button" data-reveal="answer-m11-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m11-1" hidden>Fractional distillation</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> A solution has 10 g of salt in 2 dm³. What is the concentration?</p><button class="reveal-answer" type="button" data-reveal="answer-m11-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m11-2" hidden>5 g/dm³</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> A dye moved 3 cm and the solvent moved 6 cm. Find Rf.</p><button class="reveal-answer" type="button" data-reveal="answer-m11-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m11-3" hidden>0.5</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Pure or not? Using chromatography</h3><p>A pure substance gives one spot in chromatography, while a mixture gives several. Comparing Rf values with known substances helps identify them, because each substance has a characteristic Rf in a given solvent.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> A sample gives three spots. Is it pure, and how can you identify the substances?</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-11" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-11" hidden>It is a mixture of at least three substances. Compare each spot’s Rf value with known substances run in the same solvent.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="11"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+    <section class="panel lesson-section full-lesson" id="lesson-12">
+      <div class="lesson-topline"><p class="eyebrow">UNIT 12 · THE CHEMISTRY OF FUELS AND PLASTICS</p></div>
+      <h2>Carbon compounds and final review</h2>
+      <p class="lesson-intro">Work through the sections in order and pause to answer the practice questions before revealing the solutions.</p>
+      <div class="lesson-part">
+        <p class="part-label">PART 1 · LEARN THE THEORY</p>
+        <div class="zero-start"><h3>Start from zero: why carbon is special</h3><p>Carbon atoms can join to each other in long chains and rings, which makes millions of different compounds, from petrol to plastics to molecules in your body. Compounds of only carbon and hydrogen are called hydrocarbons.</p><ul><li><strong>Hydrocarbon:</strong> a compound of only carbon and hydrogen.</li><li><strong>Alkane:</strong> a hydrocarbon with only single bonds.</li><li><strong>Alkene:</strong> a hydrocarbon with a C=C double bond.</li><li><strong>Polymer:</strong> a very long molecule made of many repeating units.</li></ul><p>Alkanes follow CₙH₂ₙ₊₂: methane CH₄, ethane C₂H₆, propane C₃H₈, butane C₄H₁₀. Alkenes follow CₙH₂ₙ: ethene C₂H₄, propene C₃H₆.</p></div>
+        <h3>Crude oil and fractions</h3><p>Crude oil is a mixture of hydrocarbons separated by fractional distillation. Short chains have low boiling points and are used as fuels like petrol. Long chains are thick and are used for bitumen.</p><h3>Cracking</h3><p>Large hydrocarbons are broken into smaller, more useful ones, producing alkenes: C₁₀H₂₂ → C₈H₁₈ + C₂H₄.</p><h3>Alkenes and polymers</h3><p>Alkenes are unsaturated and turn bromine water colourless, but alkanes do not. Many ethene molecules join to form poly(ethene) by addition polymerisation.</p><h3>Your revision toolkit</h3><p>Learn formulae and ionic charges, check that equations balance, show units in calculations, and link every explanation to particles and electrons.</p>
+        <div class="formula">Alkanes: CₙH₂ₙ₊₂ · Alkenes: CₙH₂ₙ</div>
+        <div class="callout"><strong>Common mistake:</strong> In the bromine water test, alkenes turn it colourless but alkanes leave it orange.</div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 2 · TEACHER EXAMPLE</p>
+        <h3>Write the formula of the alkane with 5 carbon atoms</h3>
+        <p>Follow the method carefully. Cover the next step and try to predict it before reading on.</p>
+        <ol class="worked-steps"><li>Use CₙH₂ₙ₊₂ with n = 5.</li><li>Hydrogens = 2 × 5 + 2 = 12.</li><li>Formula: C₅H₁₂ (pentane).</li></ol>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 3 · GUIDED PRACTICE</p>
+        <h3>Your turn</h3>
+        <p>Try each question on paper first. Use the reveal buttons only after you have attempted an answer.</p>
+        <div class="practice-question"><p><strong>Try it yourself 1.</strong> What is the formula of propane?</p><button class="reveal-answer" type="button" data-reveal="answer-m12-1" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m12-1" hidden>C₃H₈</p></div><div class="practice-question"><p><strong>Try it yourself 2.</strong> How do you test for an alkene?</p><button class="reveal-answer" type="button" data-reveal="answer-m12-2" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m12-2" hidden>Shake with bromine water: it turns from orange to colourless</p></div><div class="practice-question"><p><strong>Try it yourself 3.</strong> Give one reason why cracking is useful.</p><button class="reveal-answer" type="button" data-reveal="answer-m12-3" aria-expanded="false">Reveal answer</button><p class="revealed-answer" id="answer-m12-3" hidden>It turns long, less useful hydrocarbons into short, more useful ones and alkenes</p></div>
+      </div>
+      <div class="lesson-part deeper">
+        <p class="part-label">GO DEEPER · EXTENSION</p>
+        <h3>Problems with plastics</h3><p>Most plastics are made from crude oil and do not rot, because microbes cannot break their strong C–C bonds. They stay in the environment for a very long time, so recycling, reusing and developing biodegradable polymers all matter.</p>
+        <div class="practice-question challenge"><p><strong>Challenge.</strong> Why do plastics cause waste problems?</p>
+          <button class="reveal-answer" type="button" data-reveal="answer-md-12" aria-expanded="false">Reveal answer</button>
+          <p class="revealed-answer" id="answer-md-12" hidden>They are not biodegradable, so they remain in the environment for hundreds of years.</p></div>
+      </div>
+      <div class="lesson-part">
+        <p class="part-label">PART 4 · ASSESSMENT</p>
+        <h3>Unit quiz</h3>
+        <p>Answer all three questions. A score of at least 2 out of 3 marks this unit as completed. If you score lower, review the lesson and try again.</p>
+        <div class="quiz-box" data-chem-quiz="12"><div class="quiz-content"></div></div>
+      </div>
+    </section>
+        <section class="panel" id="overall-progress">
+          <p class="eyebrow">YOUR PROGRESS</p><h2>Chemistry course progress</h2>
+          <p>Complete a unit quiz with at least 2 correct answers out of 3 to mark it complete. Your progress is stored in this browser on this device only.</p>
+          <div class="progress-track"><div class="progress-fill" id="chemProgressFill"></div></div>
+          <p class="quiz-score" id="chemProgressText">0 of 12 units completed</p>
+          <button class="button button-secondary" type="button" id="resetChemProgress">Reset chemistry progress</button>
+        </section>
+      </div>
+      <aside class="course-sidebar">
+        <section class="panel" id="resources">
+          <p class="eyebrow">EXTRA LEARNING</p><h2>Study resources</h2>
+          <p>Use these free resources to see another explanation or practise more.</p>
+          <a class="resource-card" href="https://www.khanacademy.org/science/chemistry" target="_blank" rel="noopener noreferrer"><strong>🎓 Khan Academy Chemistry</strong><span>Free lessons and practice for every topic</span></a>
+          <a class="resource-card" href="https://phet.colorado.edu/en/simulations/filter?subjects=chemistry&type=html" target="_blank" rel="noopener noreferrer"><strong>🧪 PhET chemistry simulations</strong><span>Build atoms and molecules and watch reactions</span></a>
+          <a class="resource-card" href="https://ptable.com/" target="_blank" rel="noopener noreferrer"><strong>⚛ Interactive periodic table</strong><span>Explore every element</span></a>
+          <a class="resource-card" href="https://www.chemguide.co.uk/" target="_blank" rel="noopener noreferrer"><strong>📘 Chemguide</strong><span>Clear explanations at school level</span></a>
+          <div class="callout">To find help for a unit, search the resource for its topic, for example “balancing equations” or “reactivity series”.</div>
+        </section>
+        <section class="panel">
+          <p class="eyebrow">STUDY SKILL</p><h2>Make your own mistakes</h2>
+          <p>When you get a question wrong, do not just read the answer. Find the exact line where your working went off track, then redo the question without looking.</p>
+        </section>
+      </aside>
+    </div>
+    <div class="page-bottom"><a class="back-home" href="main.html">← Back to the homepage</a></div>
+  </main>
+  <footer class="site-footer container"><a class="brand footer-brand" href="main.html"><span class="brand-mark">S</span><span>StudyBuddy <span class="brand-accent">Armenia</span></span></a><p>Made for curious minds. Keep asking questions. ✦</p></footer>
+</body>
+</html>
